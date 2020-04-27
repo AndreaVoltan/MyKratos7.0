@@ -1,0 +1,1 @@
+/usr/bin/cc  -funroll-loops -Wall -fopenmp -g    -rdynamic CMakeFiles/minigzip64.dir/test/minigzip.o  -o minigzip64  -Wl,-rpath,/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib libz.so.1.2.8 

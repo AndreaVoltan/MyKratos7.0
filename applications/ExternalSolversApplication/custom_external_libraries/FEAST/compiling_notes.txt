@@ -1,0 +1,2 @@
+# For compiling FEAST library add the following command in the configure.sh
+-DINCLUDE_FEAST=ON

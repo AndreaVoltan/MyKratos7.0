@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KratosMultiphysics"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\external_libraries\;CMake Files\external_libraries\zlib\;CMake Files\external_libraries\gidpost\;CMake Files\external_libraries\triangle\;CMake Files\kratos\;CMake Files\applications\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example64"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example64/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip64"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip64/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gidpost">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/libgidpost.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DUSE_CONST"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/gidpost"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 gidpost"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gidpost/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/libgidpost.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add option="-DNDEBUG"/>
+					<Add option="-DUSE_CONST"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/gidpost"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 gidpost/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/gidpost/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KratosCore">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/kratos/libKratosCore.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_CORE=IMPORT,API"/>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 KratosCore"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KratosCore/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/kratos/libKratosCore.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_CORE=IMPORT,API"/>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 KratosCore/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Kratos">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Kratos.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 Kratos"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Kratos/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Kratos.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/kratos"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 Kratos/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/kratos/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/libtriangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add option="-DTRILIBRARY"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/triangle"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 triangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/libtriangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DKRATOS_PYTHON"/>
+					<Add option="-DTRILIBRARY"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/triangle"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/triangle/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/zconf.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/gidpost.c">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/gidpost.h">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/gidpostHash.c">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/gidpostHash.h">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/gidpostInt.c">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/gidpostInt.h">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/hashtab.c">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/hashtab.h">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/lookupa.c">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/lookupa.h">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/recycle.c">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/source/recycle.h">
+			<Option target="gidpost"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/triangle/triangle.c">
+			<Option target="triangle"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/triangle/triangle.h">
+			<Option target="triangle"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/adler32.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/compress.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/crc32.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/crc32.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/deflate.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/deflate.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzclose.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzguts.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzlib.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzread.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzwrite.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/infback.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inffast.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inffast.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inffixed.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inflate.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inflate.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inftrees.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inftrees.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/test/example.c">
+			<Option target="example"/>
+			<Option target="example64"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/test/minigzip.c">
+			<Option target="minigzip"/>
+			<Option target="minigzip64"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/trees.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/trees.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/uncompr.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/win32/zlib1.rc">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zlib.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zutil.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zutil.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/conditions/mesh_condition.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/conditions/mesh_condition.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/data_value_container.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/data_value_container.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/flags.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/flags.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/model.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/model.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/variable_data.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/containers/variable_data.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/elements/mesh_element.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/elements/mesh_element.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger_message.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger_message.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger_output.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger_output.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger_table_output.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/logger_table_output.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/unv_output.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/unv_output.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/vtk_output.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/input_output/vtk_output.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/linear_solvers/amgcl_solver_impl.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modeler/tetrahedra_ball.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modeler/tetrahedra_ball.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modeler/tetrahedra_edge_shell.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modeler/tetrahedra_edge_shell.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/ausas_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/ausas_modified_shape_functions.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/modified_shape_functions.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/tetrahedra_3d_4_ausas_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/tetrahedra_3d_4_ausas_modified_shape_functions.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/tetrahedra_3d_4_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/tetrahedra_3d_4_modified_shape_functions.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/triangle_2d_3_ausas_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/triangle_2d_3_ausas_modified_shape_functions.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/triangle_2d_3_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/modified_shape_functions/triangle_2d_3_modified_shape_functions.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/apply_periodic_boundary_condition_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/apply_periodic_boundary_condition_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/assign_scalar_field_to_conditions_process.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/assign_scalar_field_to_conditions_process.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/calculate_discontinuous_distance_to_skin_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/calculate_discontinuous_distance_to_skin_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/calculate_distance_to_skin_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/calculate_distance_to_skin_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/calculate_nodal_area_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/calculate_nodal_area_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/compute_nodal_gradient_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/compute_nodal_gradient_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/fast_transfer_between_model_parts_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/fast_transfer_between_model_parts_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/find_intersected_geometrical_objects_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/find_intersected_geometrical_objects_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/find_nodal_h_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/find_nodal_h_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/measure_mesh_quality_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/measure_mesh_quality_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/mesh_coarsening_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/mesh_coarsening_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/mesh_local_smoothing_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/mesh_local_smoothing_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/mesh_node_collapsing_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/mesh_node_collapsing_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/reorder_and_optimize_modelpart_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/reorder_and_optimize_modelpart_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/replace_elements_and_condition_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/replace_elements_and_condition_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/simple_mortar_mapper_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/simple_mortar_mapper_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/skin_detection_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/skin_detection_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/structured_mesh_generator_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/structured_mesh_generator_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/tetrahedra_mesh_edge_swapping_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/tetrahedra_mesh_edge_swapping_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/tetrahedra_mesh_quality_weighted_smoothing_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/tetrahedra_mesh_quality_weighted_smoothing_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/tetrahedra_mesh_worst_element_smoothing_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/processes/tetrahedra_mesh_worst_element_smoothing_process.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_amgcl_solver_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_amgcl_solver_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_c2c_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_c2c_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_cfd_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_cfd_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_constitutive_law_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_constitutive_law_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_constraint_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_constraint_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_containers_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_containers_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_data_communicator_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_data_communicator_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_dem_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_dem_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_deprecated_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_deprecated_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_factories_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_factories_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_fsi_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_fsi_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_geometries_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_geometries_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_io_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_io_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_kernel_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_kernel_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_kratos_application_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_kratos_application_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_kratos_parameters_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_kratos_parameters_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_legacy_structural_app_vars_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_legacy_structural_app_vars_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_linear_solvers_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_linear_solvers_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_logger_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_logger_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mapping_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mapping_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mat_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mat_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_matrix_market_interface_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_matrix_market_interface_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_matrix_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_matrix_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_memory_info_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_memory_info_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mesh_moving_variables_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mesh_moving_variables_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mesh_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_mesh_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_model_part_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_model_part_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_model_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_model_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_modeler_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_modeler_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_node_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_parallel_environment_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_parallel_environment_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_points_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_points_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_process_info_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_process_info_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_processes_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_processes_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_properties_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_response_functions_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_response_functions_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_search_strategies_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_search_strategies_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_serializer_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_serializer_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_strategies_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_strategies_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_table_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_table_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_testing_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_testing_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_utilities_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_utilities_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_vector_to_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/add_vector_to_python.h">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/python/kratos_python.cpp">
+			<Option target="Kratos"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/bounding_volume_tree.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/c2c_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/cfd_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/code_location.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/connectivity_preserve_modeler.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/constitutive_law.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/data_communicator.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/dem_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/deprecated_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/exception.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/fsi_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/global_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/integration_rules.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/io.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/kernel.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/kratos_components.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/kratos_parameters.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/legacy_structural_app_vars.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/mapping_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/mat_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/mesh_moving_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/mmio.c">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/model_part.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/model_part_io.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/parallel_environment.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/periodic_condition.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/prime_numbers.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/process_info.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/reorder_consecutive_model_part_io.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/serializer.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/standard_linear_solver_factory.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/standard_preconditioner_factory.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/timer.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/sources/variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/test_case.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/test_case.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/test_case_result.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/test_case_result.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/test_suite.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/test_suite.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/tester.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/testing/tester.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/auxiliar_files/test_bar_element.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/auxiliar_files/test_bar_element.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/auxiliar_files/test_element.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/auxiliar_files/test_element.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/constitutive_laws/test_constitutive_law.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/containers/test_data_value_container.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/containers/test_model.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/containers/test_variables.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/exceptions/test_exceptions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_geometry.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_geometry.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_hexahedra_3d_8.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_line_2d_2.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_line_3d_2.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_non_rectangular_jacobian.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_prism_3d_6.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_quadrilateral_2d_4.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_quadrilateral_3d_4.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_tetrahedra_3d_10.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_tetrahedra_3d_4.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_triangle_2d_3.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_triangle_2d_6.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/geometries/test_triangle_3d_3.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/global_pointers/test_global_pointer.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/input_output/test_logger.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/modified_shape_functions/test_tetrahedra_3d_4_ausas_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/modified_shape_functions/test_tetrahedra_3d_4_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/modified_shape_functions/test_triangle_2d_3_ausas_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/modified_shape_functions/test_triangle_2d_3_modified_shape_functions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_calculate_discontinuous_distance_to_skin_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_calculate_distance_to_skin_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_calculate_nodal_area_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_coarsening_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_compute_nodal_gradient_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_fast_transfer_between_model_parts_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_find_intersected_geometrical_objects_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_find_nodal_h_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_mortar_mapper_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_replace_elements_and_condition_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_skin_detection_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_structured_mesh_generator_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/processes/test_tetrahedra_edge_swapping_process.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/cross_check_shape_functions_values.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_amatrix.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_amatrix_alias.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_checks.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_chunk.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_code_location.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_compare_elements_and_conditions_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_condition.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_dof.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_element.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_exceptions.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_linear_master_slave_constraint.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_memory_pool.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_model_part.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_model_part_io.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_nodal_data.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_node.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_parameters.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_properties.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_serializer.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/sources/test_shape_function_derivatives.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/spatial_containers/test_bins_dynamic.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/spatial_containers/test_bins_static.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/strategies/builder_and_solvers/test_builder_and_solver.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/strategies/schemes/test_residual_based_adjoint_bossak_scheme.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/strategies/schemes/test_schemes.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/strategies/strategies/test_strategies.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/testing/test_testing.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_assign_unique_model_part_collection_tag_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_binbased_fast_point_locator.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_brent_iteration.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_brute_force_point_locator.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_discont_utils.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_divide_tetrahedra_3d_4.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_divide_triangle_2d_3.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_embedded_skin_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_geometrical_projection_utilities.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_geometrical_sensitivity_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_geometry_utils.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_intersection_utilities.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_math_utils.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_plane_approximation_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_split_tetrahedra.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_stl_io.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/cpp_tests/utilities/test_svd_utils.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/global_pointers/test_global_pointers_container.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/tests/global_pointers/test_global_pointers_vector.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/assign_unique_model_part_collection_tag_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/assign_unique_model_part_collection_tag_utility.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/auxiliar_model_part_utilities.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/auxiliar_model_part_utilities.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/brute_force_point_locator.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/brute_force_point_locator.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/constraint_utilities.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/constraint_utilities.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/divide_geometry.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/divide_geometry.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/divide_tetrahedra_3d_4.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/divide_tetrahedra_3d_4.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/divide_triangle_2d_3.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/divide_triangle_2d_3.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/embedded_skin_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/embedded_skin_utility.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/exact_mortar_segmentation_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/exact_mortar_segmentation_utility.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/geometrical_sensitivity_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/geometrical_sensitivity_utility.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/read_materials_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/read_materials_utility.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/time_discretization.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/time_discretization.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/variable_redistribution_utility.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/variable_redistribution_utility.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/variable_utils.cpp">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/utilities/variable_utils.h">
+			<Option target="KratosCore"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos_version.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/cmake_modules/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/cmake_modules/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external_libraries\zlib\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\external_libraries\zlib\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\external_libraries\zlib\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external_libraries\gidpost\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external_libraries\triangle\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\kratos\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/applications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\applications\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

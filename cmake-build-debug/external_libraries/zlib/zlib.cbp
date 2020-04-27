@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\external_libraries\;CMake Files\external_libraries\zlib\;CMake Files\external_libraries\gidpost\;CMake Files\external_libraries\triangle\;CMake Files\kratos\;CMake Files\applications\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlibstatic"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlibstatic/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlibstatic/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/libz.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example64"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example64/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/example64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 example64/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip64"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minigzip64/fast">
+				<Option output="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/minigzip64" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="/home/andrea/MyKratos7.0/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib"/>
+					<Add directory="/home/andrea/MyKratos7.0"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 minigzip64/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/andrea/MyKratos7.0/cmake-build-debug/external_libraries/zlib/zconf.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/adler32.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/compress.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/crc32.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/crc32.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/deflate.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/deflate.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzclose.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzguts.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzlib.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzread.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/gzwrite.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/infback.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inffast.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inffast.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inffixed.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inflate.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inflate.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inftrees.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/inftrees.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/test/example.c">
+			<Option target="example"/>
+			<Option target="example64"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/test/minigzip.c">
+			<Option target="minigzip"/>
+			<Option target="minigzip64"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/trees.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/trees.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/uncompr.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/win32/zlib1.rc">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zlib.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zutil.c">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zutil.h">
+			<Option target="zlibstatic"/>
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos_version.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/cmake_modules/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/cmake_modules/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external_libraries\zlib\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\external_libraries\zlib\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/zlib/zlib.pc.cmakein">
+			<Option virtualFolder="CMake Files\external_libraries\zlib\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/gidpost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external_libraries\gidpost\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/external_libraries/triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\external_libraries\triangle\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/kratos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\kratos\"/>
+		</Unit>
+		<Unit filename="/home/andrea/MyKratos7.0/applications/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\applications\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
