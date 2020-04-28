@@ -374,8 +374,8 @@ external_libraries/gidpost/CMakeFiles/gidpost.dir/clean:
 # Target rules for target kratos/CMakeFiles/KratosCore.dir
 
 # All Build rule for target.
-kratos/CMakeFiles/KratosCore.dir/all: external_libraries/gidpost/CMakeFiles/gidpost.dir/all
 kratos/CMakeFiles/KratosCore.dir/all: external_libraries/zlib/CMakeFiles/zlib.dir/all
+kratos/CMakeFiles/KratosCore.dir/all: external_libraries/gidpost/CMakeFiles/gidpost.dir/all
 	$(MAKE) -f kratos/CMakeFiles/KratosCore.dir/build.make kratos/CMakeFiles/KratosCore.dir/depend
 	$(MAKE) -f kratos/CMakeFiles/KratosCore.dir/build.make kratos/CMakeFiles/KratosCore.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andrea/MyKratos7.0/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82 "Built target KratosCore"
@@ -402,8 +402,8 @@ kratos/CMakeFiles/KratosCore.dir/clean:
 # Target rules for target kratos/CMakeFiles/Kratos.dir
 
 # All Build rule for target.
-kratos/CMakeFiles/Kratos.dir/all: external_libraries/gidpost/CMakeFiles/gidpost.dir/all
 kratos/CMakeFiles/Kratos.dir/all: external_libraries/zlib/CMakeFiles/zlib.dir/all
+kratos/CMakeFiles/Kratos.dir/all: external_libraries/gidpost/CMakeFiles/gidpost.dir/all
 kratos/CMakeFiles/Kratos.dir/all: kratos/CMakeFiles/KratosCore.dir/all
 	$(MAKE) -f kratos/CMakeFiles/Kratos.dir/build.make kratos/CMakeFiles/Kratos.dir/depend
 	$(MAKE) -f kratos/CMakeFiles/Kratos.dir/build.make kratos/CMakeFiles/Kratos.dir/build

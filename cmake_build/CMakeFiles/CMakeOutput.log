@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/andrea/MyKratos7.0/cmake
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6bf8b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6bf8b.dir/build.make CMakeFiles/cmTC_6bf8b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_00a28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00a28.dir/build.make CMakeFiles/cmTC_00a28.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6bf8b.dir/testCCompiler.c.o
-/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_6bf8b.dir/testCCompiler.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_6bf8b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bf8b.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_6bf8b.dir/testCCompiler.c.o  -o cmTC_6bf8b 
+Building C object CMakeFiles/cmTC_00a28.dir/testCCompiler.c.o
+/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_00a28.dir/testCCompiler.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_00a28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00a28.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_00a28.dir/testCCompiler.c.o  -o cmTC_00a28 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53ad2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53ad2.dir/build.make CMakeFiles/cmTC_53ad2.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6cb1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6cb1b.dir/build.make CMakeFiles/cmTC_6cb1b.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_53ad2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53ad2.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3    -v -rdynamic CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o  -o cmTC_53ad2 
+Building C object CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6cb1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb1b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3    -v -rdynamic CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o  -o cmTC_6cb1b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-msse3' '-v' '-rdynamic' '-o' 'cmTC_53ad2' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfAFLjK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_53ad2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-msse3' '-v' '-rdynamic' '-o' 'cmTC_53ad2' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-msse3' '-v' '-rdynamic' '-o' 'cmTC_6cb1b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB0XUcv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6cb1b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-msse3' '-v' '-rdynamic' '-o' 'cmTC_6cb1b' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_53ad2/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_53ad2.dir/build.make CMakeFiles/cmTC_53ad2.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6cb1b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6cb1b.dir/build.make CMakeFiles/cmTC_6cb1b.dir/build]
   ignore line: [make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_53ad2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53ad2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc  -msse3    -v -rdynamic CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o  -o cmTC_53ad2 ]
+  ignore line: [Building C object CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6cb1b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb1b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -msse3    -v -rdynamic CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o  -o cmTC_6cb1b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-v' '-rdynamic' '-o' 'cmTC_53ad2' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfAFLjK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_53ad2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-v' '-rdynamic' '-o' 'cmTC_6cb1b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccB0XUcv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_6cb1b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfAFLjK.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccB0XUcv.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_53ad2] ==> ignore
+    arg [cmTC_6cb1b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_53ad2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6cb1b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -159,14 +159,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77088/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77088.dir/build.make CMakeFiles/cmTC_77088.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8e557/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e557.dir/build.make CMakeFiles/cmTC_8e557.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77088.dir/feature_tests.c.o
-/usr/bin/gcc   -msse3    -std=c11 -o CMakeFiles/cmTC_77088.dir/feature_tests.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_77088
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77088.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_77088.dir/feature_tests.c.o  -o cmTC_77088 
+Building C object CMakeFiles/cmTC_8e557.dir/feature_tests.c.o
+/usr/bin/gcc   -msse3    -std=c11 -o CMakeFiles/cmTC_8e557.dir/feature_tests.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8e557
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e557.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_8e557.dir/feature_tests.c.o  -o cmTC_8e557 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -179,14 +179,14 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ccc45/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ccc45.dir/build.make CMakeFiles/cmTC_ccc45.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_702b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_702b0.dir/build.make CMakeFiles/cmTC_702b0.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ccc45.dir/feature_tests.c.o
-/usr/bin/gcc   -msse3    -std=c99 -o CMakeFiles/cmTC_ccc45.dir/feature_tests.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ccc45
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccc45.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_ccc45.dir/feature_tests.c.o  -o cmTC_ccc45 
+Building C object CMakeFiles/cmTC_702b0.dir/feature_tests.c.o
+/usr/bin/gcc   -msse3    -std=c99 -o CMakeFiles/cmTC_702b0.dir/feature_tests.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_702b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702b0.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_702b0.dir/feature_tests.c.o  -o cmTC_702b0 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -199,14 +199,14 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3dffa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3dffa.dir/build.make CMakeFiles/cmTC_3dffa.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_58d08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58d08.dir/build.make CMakeFiles/cmTC_58d08.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3dffa.dir/feature_tests.c.o
-/usr/bin/gcc   -msse3    -std=c90 -o CMakeFiles/cmTC_3dffa.dir/feature_tests.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3dffa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dffa.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_3dffa.dir/feature_tests.c.o  -o cmTC_3dffa 
+Building C object CMakeFiles/cmTC_58d08.dir/feature_tests.c.o
+/usr/bin/gcc   -msse3    -std=c90 -o CMakeFiles/cmTC_58d08.dir/feature_tests.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_58d08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d08.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3     -rdynamic CMakeFiles/cmTC_58d08.dir/feature_tests.c.o  -o cmTC_58d08 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -217,28 +217,28 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c1e5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c1e5.dir/build.make CMakeFiles/cmTC_4c1e5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_98199/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98199.dir/build.make CMakeFiles/cmTC_98199.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4c1e5.dir/testCXXCompiler.cxx.o
-/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_4c1e5.dir/testCXXCompiler.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_4c1e5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c1e5.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_4c1e5.dir/testCXXCompiler.cxx.o  -o cmTC_4c1e5 
+Building CXX object CMakeFiles/cmTC_98199.dir/testCXXCompiler.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_98199.dir/testCXXCompiler.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_98199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98199.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_98199.dir/testCXXCompiler.cxx.o  -o cmTC_98199 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3757c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3757c.dir/build.make CMakeFiles/cmTC_3757c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_62790/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62790.dir/build.make CMakeFiles/cmTC_62790.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_3757c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3757c.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11    -v -rdynamic CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3757c 
+Building CXX object CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_62790
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62790.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11    -v -rdynamic CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62790 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,9 +250,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-rdynamic' '-o' 'cmTC_3757c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWwEFt4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3757c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-rdynamic' '-o' 'cmTC_3757c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-rdynamic' '-o' 'cmTC_62790' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmwPB0Q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62790 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-rdynamic' '-o' 'cmTC_62790' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -260,14 +260,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3757c/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3757c.dir/build.make CMakeFiles/cmTC_3757c.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_62790/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_62790.dir/build.make CMakeFiles/cmTC_62790.dir/build]
   ignore line: [make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_3757c]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3757c.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++   -msse3 -std=c++11    -v -rdynamic CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3757c ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_62790]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62790.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++   -msse3 -std=c++11    -v -rdynamic CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62790 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-rdynamic' '-o' 'cmTC_3757c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWwEFt4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3757c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-rdynamic' '-o' 'cmTC_62790' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmwPB0Q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62790 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccWwEFt4.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmwPB0Q.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3757c] ==> ignore
+    arg [cmTC_62790] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_3757c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_62790.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -344,14 +344,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0512/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0512.dir/build.make CMakeFiles/cmTC_c0512.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_93f24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93f24.dir/build.make CMakeFiles/cmTC_93f24.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0512.dir/feature_tests.cxx.o
-/usr/bin/g++    -msse3 -std=c++11    -std=c++1z -o CMakeFiles/cmTC_c0512.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c0512
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0512.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_c0512.dir/feature_tests.cxx.o  -o cmTC_c0512 
+Building CXX object CMakeFiles/cmTC_93f24.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++1z -o CMakeFiles/cmTC_93f24.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_93f24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f24.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_93f24.dir/feature_tests.cxx.o  -o cmTC_93f24 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -417,14 +417,14 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0f47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0f47.dir/build.make CMakeFiles/cmTC_c0f47.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e0937/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0937.dir/build.make CMakeFiles/cmTC_e0937.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0f47.dir/feature_tests.cxx.o
-/usr/bin/g++    -msse3 -std=c++11    -std=c++14 -o CMakeFiles/cmTC_c0f47.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c0f47
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0f47.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_c0f47.dir/feature_tests.cxx.o  -o cmTC_c0f47 
+Building CXX object CMakeFiles/cmTC_e0937.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++14 -o CMakeFiles/cmTC_e0937.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e0937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0937.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_e0937.dir/feature_tests.cxx.o  -o cmTC_e0937 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -490,14 +490,14 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7f96c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7f96c.dir/build.make CMakeFiles/cmTC_7f96c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3d141/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d141.dir/build.make CMakeFiles/cmTC_3d141.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7f96c.dir/feature_tests.cxx.o
-/usr/bin/g++    -msse3 -std=c++11    -std=c++11 -o CMakeFiles/cmTC_7f96c.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7f96c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f96c.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_7f96c.dir/feature_tests.cxx.o  -o cmTC_7f96c 
+Building CXX object CMakeFiles/cmTC_3d141.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++11 -o CMakeFiles/cmTC_3d141.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3d141
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d141.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_3d141.dir/feature_tests.cxx.o  -o cmTC_3d141 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -563,14 +563,14 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7dd8a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7dd8a.dir/build.make CMakeFiles/cmTC_7dd8a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5e64d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e64d.dir/build.make CMakeFiles/cmTC_5e64d.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7dd8a.dir/feature_tests.cxx.o
-/usr/bin/g++    -msse3 -std=c++11    -std=c++98 -o CMakeFiles/cmTC_7dd8a.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7dd8a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dd8a.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_7dd8a.dir/feature_tests.cxx.o  -o cmTC_7dd8a 
+Building CXX object CMakeFiles/cmTC_5e64d.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++98 -o CMakeFiles/cmTC_5e64d.dir/feature_tests.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e64d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e64d.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11     -rdynamic CMakeFiles/cmTC_5e64d.dir/feature_tests.cxx.o  -o cmTC_5e64d 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -634,14 +634,14 @@ make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMak
 Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62820/fast"
-/usr/bin/make -f CMakeFiles/cmTC_62820.dir/build.make CMakeFiles/cmTC_62820.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a9d6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9d6d.dir/build.make CMakeFiles/cmTC_a9d6d.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_62820.dir/src.cxx.o
-/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -DHAS_CPP14_FLAG   -std=c++14 -o CMakeFiles/cmTC_62820.dir/src.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_62820
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62820.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -DHAS_CPP14_FLAG    -rdynamic CMakeFiles/cmTC_62820.dir/src.cxx.o  -o cmTC_62820 
+Building CXX object CMakeFiles/cmTC_a9d6d.dir/src.cxx.o
+/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -DHAS_CPP14_FLAG   -std=c++14 -o CMakeFiles/cmTC_a9d6d.dir/src.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a9d6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9d6d.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -DHAS_CPP14_FLAG    -rdynamic CMakeFiles/cmTC_a9d6d.dir/src.cxx.o  -o cmTC_a9d6d 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 Source file was:
@@ -649,11 +649,11 @@ int main() { return 0; }
 Detecting C OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3eb53/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3eb53.dir/build.make CMakeFiles/cmTC_3eb53.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fa1f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa1f0.dir/build.make CMakeFiles/cmTC_fa1f0.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp -v   -o CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Building C object CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp -v   -o CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -662,8 +662,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o -Wall -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/ccVlk4Tt.s
+COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o -Wall -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/ccgHk7Qq.s
 GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -683,15 +683,15 @@ GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
-COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o /tmp/ccVlk4Tt.s
+COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o /tmp/ccgHk7Qq.s
 GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking C executable cmTC_3eb53
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb53.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp -v    -rdynamic CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o  -o cmTC_3eb53 -v 
+COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_fa1f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa1f0.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp -v    -rdynamic CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o  -o cmTC_fa1f0 -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -704,9 +704,9 @@ gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_3eb53' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9zfxAv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3eb53 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o
-COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_3eb53' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_fa1f0' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwPBUWu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fa1f0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_fa1f0' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -714,11 +714,11 @@ Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3eb53/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3eb53.dir/build.make CMakeFiles/cmTC_3eb53.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fa1f0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fa1f0.dir/build.make CMakeFiles/cmTC_fa1f0.dir/build]
   ignore line: [make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o]
-  ignore line: [/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp -v   -o CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Building C object CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp -v   -o CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -727,8 +727,8 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o -Wall -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/ccVlk4Tt.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o -Wall -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/ccgHk7Qq.s]
   ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -748,15 +748,15 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o /tmp/ccVlk4Tt.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o /tmp/ccgHk7Qq.s]
   ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking C executable cmTC_3eb53]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb53.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp -v    -rdynamic CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o  -o cmTC_3eb53 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_fa1f0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa1f0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp -v    -rdynamic CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o  -o cmTC_fa1f0 -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -769,13 +769,13 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_3eb53' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9zfxAv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3eb53 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-funroll-loops' '-Wall' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_fa1f0' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwPBUWu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_fa1f0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9zfxAv.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwPBUWu.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -795,7 +795,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3eb53] ==> ignore
+    arg [cmTC_fa1f0] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -808,7 +808,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_3eb53.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_fa1f0.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
@@ -841,11 +841,11 @@ Parsed C OpenMP implicit link information from above output:
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88267/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88267.dir/build.make CMakeFiles/cmTC_88267.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c685f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c685f.dir/build.make CMakeFiles/cmTC_c685f.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o
-/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v   -o CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Building CXX object CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o
+/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v   -o CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -854,8 +854,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o -Wall -Wsuggest-override -std=c++11 -std=c++11 -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/cciuRSIy.s
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o -Wall -Wsuggest-override -std=c++11 -std=c++11 -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/ccKCchIo.s
 GNU C++11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -879,15 +879,15 @@ GNU C++11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o /tmp/cciuRSIy.s
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o /tmp/ccKCchIo.s
 GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking CXX executable cmTC_88267
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88267.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v    -rdynamic CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o  -o cmTC_88267 -v 
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_c685f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c685f.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v    -rdynamic CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o  -o cmTC_c685f -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -900,9 +900,9 @@ gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_88267' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4kPykA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88267 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o
-COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_88267' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_c685f' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIW1mbo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c685f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_c685f' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -910,11 +910,11 @@ Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_88267/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_88267.dir/build.make CMakeFiles/cmTC_88267.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c685f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c685f.dir/build.make CMakeFiles/cmTC_c685f.dir/build]
   ignore line: [make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v   -o CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v   -o CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -923,8 +923,8 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o -Wall -Wsuggest-override -std=c++11 -std=c++11 -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/cciuRSIy.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse3 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o -Wall -Wsuggest-override -std=c++11 -std=c++11 -version -funroll-loops -fopenmp -fstack-protector-strong -Wformat-security -o /tmp/ccKCchIo.s]
   ignore line: [GNU C++11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -948,15 +948,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o /tmp/cciuRSIy.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o /tmp/ccKCchIo.s]
   ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_88267]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88267.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v    -rdynamic CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o  -o cmTC_88267 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_c685f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c685f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -v    -rdynamic CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o  -o cmTC_c685f -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -969,13 +969,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_88267' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4kPykA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88267 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-funroll-loops' '-Wall' '-std=c++11' '-Wsuggest-override' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_c685f' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIW1mbo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c685f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/7/crtoffloadend.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4kPykA.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIW1mbo.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -995,7 +995,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_88267] ==> ignore
+    arg [cmTC_c685f] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -1008,7 +1008,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_88267.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c685f.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -1052,7 +1052,7 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18
 Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccnbXRSL.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/7/finclude -o /tmp/ccEZcdvZ.s
+ /usr/lib/gcc/x86_64-linux-gnu/7/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccNi5f3D.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/7/finclude -o /tmp/ccj5LfHR.s
 GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -1073,7 +1073,7 @@ GNU Fortran2008 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o /tmp/ccD1AYld.o /tmp/ccEZcdvZ.s
+ as -v --64 -o /tmp/cctmSqn5.o /tmp/ccj5LfHR.s
 GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
 rename spec lib to liborig
@@ -1081,7 +1081,7 @@ COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSuoKdr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/ccD1AYld.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTtLj4i.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. /tmp/cctmSqn5.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 
 
@@ -1092,29 +1092,29 @@ The Fortran compiler identification is GNU, found in "/home/andrea/MyKratos7.0/c
 Determining if the Fortran compiler works passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_de148/fast"
-/usr/bin/make -f CMakeFiles/cmTC_de148.dir/build.make CMakeFiles/cmTC_de148.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_898bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_898bf.dir/build.make CMakeFiles/cmTC_898bf.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_de148.dir/testFortranCompiler.f.o
-/usr/bin/gfortran    -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_de148.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_de148
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de148.dir/link.txt --verbose=1
-/usr/bin/gfortran      CMakeFiles/cmTC_de148.dir/testFortranCompiler.f.o  -o cmTC_de148 
+Building Fortran object CMakeFiles/cmTC_898bf.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_898bf.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_898bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_898bf.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_898bf.dir/testFortranCompiler.f.o  -o cmTC_898bf 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Detecting Fortran compiler ABI info compiled with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4942/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4942.dir/build.make CMakeFiles/cmTC_b4942.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_98a3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98a3b.dir/build.make CMakeFiles/cmTC_98a3b.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o
-/usr/bin/gfortran    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o
-Linking Fortran executable cmTC_b4942
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4942.dir/link.txt --verbose=1
-/usr/bin/gfortran   -v   CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o  -o cmTC_b4942 
-Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o -o cmTC_b4942 -l gfortran -l m -shared-libgcc
+Building Fortran object CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_98a3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a3b.dir/link.txt --verbose=1
+/usr/bin/gfortran   -v   CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o  -o cmTC_98a3b 
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o -o cmTC_98a3b -l gfortran -l m -shared-libgcc
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gfortran
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -1126,12 +1126,12 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec
 rename spec lib to liborig
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4942' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98a3b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4942' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9OmcQ5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b4942 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4942' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98a3b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHkEnBO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98a3b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98a3b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
@@ -1139,15 +1139,15 @@ Parsed Fortran implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b4942/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b4942.dir/build.make CMakeFiles/cmTC_b4942.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98a3b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98a3b.dir/build.make CMakeFiles/cmTC_98a3b.dir/build]
   ignore line: [make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building Fortran object CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [/usr/bin/gfortran    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o]
-  ignore line: [Linking Fortran executable cmTC_b4942]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4942.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gfortran   -v   CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o  -o cmTC_b4942 ]
-  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o -o cmTC_b4942 -l gfortran -l m -shared-libgcc]
+  ignore line: [Building Fortran object CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran    -c /usr/share/cmake-3.10/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_98a3b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a3b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran   -v   CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o  -o cmTC_98a3b ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o -o cmTC_98a3b -l gfortran -l m -shared-libgcc]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gfortran]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -1159,16 +1159,16 @@ Parsed Fortran implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.spec]
   ignore line: [rename spec lib to liborig]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4942' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98a3b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4942' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9OmcQ5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b4942 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98a3b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHkEnBO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_98a3b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9OmcQ5.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHkEnBO.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
@@ -1190,7 +1190,7 @@ Parsed Fortran implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b4942] ==> ignore
+    arg [cmTC_98a3b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -1202,7 +1202,7 @@ Parsed Fortran implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_b4942.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [CMakeFiles/cmTC_98a3b.dir/CMakeFortranCompilerABI.F.o] ==> ignore
     arg [-lgfortran] ==> lib [gfortran]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -1232,56 +1232,56 @@ Parsed Fortran implicit link information from above output:
 Determining if the Fortran compiler supports Fortran 90 passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa797/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa797.dir/build.make CMakeFiles/cmTC_aa797.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1c063/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c063.dir/build.make CMakeFiles/cmTC_1c063.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_aa797.dir/testFortranCompilerF90.f90.o
-/usr/bin/gfortran    -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_aa797.dir/testFortranCompilerF90.f90.o
-Linking Fortran executable cmTC_aa797
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa797.dir/link.txt --verbose=1
-/usr/bin/gfortran      CMakeFiles/cmTC_aa797.dir/testFortranCompilerF90.f90.o  -o cmTC_aa797 
+Building Fortran object CMakeFiles/cmTC_1c063.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran    -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_1c063.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_1c063
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c063.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_1c063.dir/testFortranCompilerF90.f90.o  -o cmTC_1c063 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the Fortran sgemm exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f95fd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f95fd.dir/build.make CMakeFiles/cmTC_f95fd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_aefa2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aefa2.dir/build.make CMakeFiles/cmTC_aefa2.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_f95fd.dir/testFortranCompiler.f.o
-/usr/bin/gfortran   -O3 -DNDEBUG -O3   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_f95fd.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_f95fd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f95fd.dir/link.txt --verbose=1
-/usr/bin/gfortran      -O3 -DNDEBUG -O3 CMakeFiles/cmTC_f95fd.dir/testFortranCompiler.f.o  -o cmTC_f95fd /usr/lib/x86_64-linux-gnu/libblas.so 
+Building Fortran object CMakeFiles/cmTC_aefa2.dir/testFortranCompiler.f.o
+/usr/bin/gfortran   -O3 -DNDEBUG -O3   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_aefa2.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_aefa2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefa2.dir/link.txt --verbose=1
+/usr/bin/gfortran      -O3 -DNDEBUG -O3 CMakeFiles/cmTC_aefa2.dir/testFortranCompiler.f.o  -o cmTC_aefa2 /usr/lib/x86_64-linux-gnu/libblas.so 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4f3e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4f3e.dir/build.make CMakeFiles/cmTC_e4f3e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_393c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_393c1.dir/build.make CMakeFiles/cmTC_393c1.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4f3e.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e4f3e.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e4f3e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4f3e.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_e4f3e.dir/CheckIncludeFile.c.o  -o cmTC_e4f3e 
+Building C object CMakeFiles/cmTC_393c1.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_393c1.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_393c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_393c1.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_393c1.dir/CheckIncludeFile.c.o  -o cmTC_393c1 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the pthread_create exist passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e009/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e009.dir/build.make CMakeFiles/cmTC_8e009.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9bf7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9bf7c.dir/build.make CMakeFiles/cmTC_9bf7c.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e009.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_8e009.dir/CheckSymbolExists.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8e009
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e009.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_8e009.dir/CheckSymbolExists.c.o  -o cmTC_8e009 
+Building C object CMakeFiles/cmTC_9bf7c.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_9bf7c.dir/CheckSymbolExists.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9bf7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bf7c.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_9bf7c.dir/CheckSymbolExists.c.o  -o cmTC_9bf7c 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 File /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -1302,112 +1302,112 @@ int main(int argc, char** argv)
 Determining if the Fortran cheev exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fcb7e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fcb7e.dir/build.make CMakeFiles/cmTC_fcb7e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_595de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_595de.dir/build.make CMakeFiles/cmTC_595de.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building Fortran object CMakeFiles/cmTC_fcb7e.dir/testFortranCompiler.f.o
-/usr/bin/gfortran   -O3 -DNDEBUG -O3   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_fcb7e.dir/testFortranCompiler.f.o
-Linking Fortran executable cmTC_fcb7e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcb7e.dir/link.txt --verbose=1
-/usr/bin/gfortran      -O3 -DNDEBUG -O3 CMakeFiles/cmTC_fcb7e.dir/testFortranCompiler.f.o  -o cmTC_fcb7e /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1 
+Building Fortran object CMakeFiles/cmTC_595de.dir/testFortranCompiler.f.o
+/usr/bin/gfortran   -O3 -DNDEBUG -O3   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_595de.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_595de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_595de.dir/link.txt --verbose=1
+/usr/bin/gfortran      -O3 -DNDEBUG -O3 CMakeFiles/cmTC_595de.dir/testFortranCompiler.f.o  -o cmTC_595de /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6221a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6221a.dir/build.make CMakeFiles/cmTC_6221a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e575b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e575b.dir/build.make CMakeFiles/cmTC_e575b.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6221a.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_6221a.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_6221a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6221a.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_6221a.dir/CheckIncludeFile.c.o  -o cmTC_6221a 
+Building C object CMakeFiles/cmTC_e575b.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e575b.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e575b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e575b.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_e575b.dir/CheckIncludeFile.c.o  -o cmTC_e575b 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9c66a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9c66a.dir/build.make CMakeFiles/cmTC_9c66a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8f001/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f001.dir/build.make CMakeFiles/cmTC_8f001.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9c66a.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_9c66a.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_9c66a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c66a.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_9c66a.dir/CheckIncludeFile.c.o  -o cmTC_9c66a 
+Building C object CMakeFiles/cmTC_8f001.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_8f001.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8f001
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f001.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_8f001.dir/CheckIncludeFile.c.o  -o cmTC_8f001 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0e9b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0e9b.dir/build.make CMakeFiles/cmTC_d0e9b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_67436/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67436.dir/build.make CMakeFiles/cmTC_67436.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0e9b.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_d0e9b.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_d0e9b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e9b.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_d0e9b.dir/CheckIncludeFile.c.o  -o cmTC_d0e9b 
+Building C object CMakeFiles/cmTC_67436.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_67436.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67436.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_67436.dir/CheckIncludeFile.c.o  -o cmTC_67436 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining size of off64_t passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b03cb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b03cb.dir/build.make CMakeFiles/cmTC_b03cb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_57081/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57081.dir/build.make CMakeFiles/cmTC_57081.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b03cb.dir/OFF64_T.c.o
-/usr/bin/gcc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b03cb.dir/OFF64_T.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CheckTypeSize/OFF64_T.c
-Linking C executable cmTC_b03cb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b03cb.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_b03cb.dir/OFF64_T.c.o  -o cmTC_b03cb 
+Building C object CMakeFiles/cmTC_57081.dir/OFF64_T.c.o
+/usr/bin/gcc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_57081.dir/OFF64_T.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_57081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57081.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_57081.dir/OFF64_T.c.o  -o cmTC_57081 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function fseeko exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c6718/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6718.dir/build.make CMakeFiles/cmTC_c6718.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a3d85/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3d85.dir/build.make CMakeFiles/cmTC_a3d85.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6718.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles/cmTC_c6718.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6718
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6718.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_c6718.dir/CheckFunctionExists.c.o  -o cmTC_c6718 
+Building C object CMakeFiles/cmTC_a3d85.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles/cmTC_a3d85.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3d85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3d85.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_a3d85.dir/CheckFunctionExists.c.o  -o cmTC_a3d85 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1aed9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1aed9.dir/build.make CMakeFiles/cmTC_1aed9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a8eaf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8eaf.dir/build.make CMakeFiles/cmTC_a8eaf.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1aed9.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_1aed9.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1aed9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aed9.dir/link.txt --verbose=1
-/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_1aed9.dir/CheckIncludeFile.c.o  -o cmTC_1aed9 
+Building C object CMakeFiles/cmTC_a8eaf.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG   -o CMakeFiles/cmTC_a8eaf.dir/CheckIncludeFile.c.o   -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a8eaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8eaf.dir/link.txt --verbose=1
+/usr/bin/gcc  -msse3 -funroll-loops -Wall -fopenmp  -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_a8eaf.dir/CheckIncludeFile.c.o  -o cmTC_a8eaf 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 
 Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
 Change Dir: /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_49962/fast"
-/usr/bin/make -f CMakeFiles/cmTC_49962.dir/build.make CMakeFiles/cmTC_49962.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7303f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7303f.dir/build.make CMakeFiles/cmTC_7303f.dir/build
 make[1]: Entering directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_49962.dir/src.cxx.o
-/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -DHAS_FLTO -O3 -DNDEBUG   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_49962.dir/src.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_49962
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49962.dir/link.txt --verbose=1
-/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -DHAS_FLTO -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_49962.dir/src.cxx.o  -o cmTC_49962 -flto 
+Building CXX object CMakeFiles/cmTC_7303f.dir/src.cxx.o
+/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -DHAS_FLTO -O3 -DNDEBUG   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_7303f.dir/src.cxx.o -c /home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7303f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7303f.dir/link.txt --verbose=1
+/usr/bin/g++   -msse3 -std=c++11 -funroll-loops -Wall -std=c++11 -Wsuggest-override -fopenmp -DHAS_FLTO -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_7303f.dir/src.cxx.o  -o cmTC_7303f -flto 
 make[1]: Leaving directory '/home/andrea/MyKratos7.0/cmake_build/CMakeFiles/CMakeTmp'
 
 Source file was:
